@@ -1,0 +1,82 @@
+**************************************************************
+  (FROZEN)
+
+   SSSS    CCCC      FFFFFF  EEEEEE   RRRR   MM     MM  IIIII
+  SS   S  CC   C     FF      EE      RR   R  MMM   MMM    I
+  SS      CC         FF      EE      RR  R   M MM MM M    I
+   SSSS   CC     --- FFFFFF  EEEEEE  RRRR    M  MMM  M    I
+      SS  CC         FF      EE      R   R   M   M   M    I
+  S   SS  CC   C     FF      EE      R   RR  M   M   M    I
+   SSSS    CCCC      FF      EEEEEE  R   RR  M   M   M  IIIII
+
+
+Energies in eV, temperature in Kelvin, DOS in states/unit cell
+
+------
+j.buckeridge@ucl.ac.uk 2018
+**************************************************************
+
+ERROR: unitcell.dat (unit cell for which DOS determined) is needed!!
+...but found a POSCAR! Will use that instead...
+(Should be cell for which DOS was determined!)
+
+Volume of cell:    1056.622886 A^3
+
+Found non-spin polarised system...
+
+Number of electrons in system:     544.000000
+         Energy gap of system:       5.903400 eV
+                 Temperature :    1400.000000 K
+     Number of defect species:     3
+
+Defects found:
+Name  # charge states  # sites in unit cell
+v_Li                2                     3
+Li_i                2                     1
+v_O                 3                     3
+
+Number of fixed concentration defect species:     0
+Number of fixed charged defect species:           1
+
+Frozen defects: (name)  (charge)   (concentration / cm^-3)
+                 dopant      2.0    0.5678761124872E+021
+
+WARNING: Found negative value(s) of DOS!
+         Do you know what you are doing?
+         These may cause serious problems...
+
+Integration of DOS up to Fermi level:     542.862404
+Renormalised integrated DOS         :     544.000000
+
+Solution found!
+
+Condition (n + acceptors) - (p + donors):   0.4692535921010E+008  cm^-3
+
+Results:
+--------
+SC Fermi level :       4.1495863809835  (eV)
+
+Concentrations:
+n (electrons)  :   0.6519446589240E+015  cm^-3
+p (holes)      :   0.1061250061358E+008  cm^-3
+v_Li           :   0.1136252792036E+022  cm^-3
+Li_i           :   0.5012254107253E+018  cm^-3
+v_O            :   0.3914797315472E+012  cm^-3
+
+Breakdown of concentrations for each defect charge state:
+--------------------------------------------------------
+v_Li           :   Charge   Concentration(cm^-3) % total
+               :     0.0     0.1506459779367E+009    0.00
+               :    -1.0     0.1136252792035E+022  100.00
+--------------------------------------------------------
+Li_i           :   Charge   Concentration(cm^-3) % total
+               :     0.0     0.6776497271402E+013    0.00
+               :     1.0     0.5012186342280E+018  100.00
+--------------------------------------------------------
+v_O            :   Charge   Concentration(cm^-3) % total
+               :     0.0     0.2119258857200E+011    5.41
+               :     1.0     0.3690795453696E+012   94.28
+               :     2.0     0.1207597605598E+010    0.31
+
+Concentrations of new fixed charge defects:
+dopant         :   0.5678761124872E+021  cm^-3

@@ -24,6 +24,8 @@ To run the complete analysis, you will need a compiled version of the Fortran co
 
 `doscars/`: Should you want to replicate the full analysis, this directory should contain the relevant oxygen vacancy doscars obtained from the accompanying [dataset]()
 
+`cplap_out/`: contains the output from thermodynamic stability analysis performed using the code [`CPLAP`](https://github.com/jbuckeridge/cplap)
+
 ## Dataset
 
 The dataset in full is available at:

@@ -1,0 +1,62 @@
+**************************************************************
+
+       PROGRAM TO DETERMINE SELF-CONSISTENT FERMI LEVEL
+
+Energies in eV, temperature in Kelvin, DOS in states/unit cell
+
+------
+j.buckeridge@ucl.ac.uk 2016
+**************************************************************
+
+POSCAR found...
+(Should be cell for which DOS was determined!)
+ 
+Volume of cell:    1056.622886 A^3
+ 
+Found non-spin polarised system...
+ 
+Number of electrons in system:     544.000000
+         Energy gap of system:       5.903400 eV
+                 Temperature :    1500.000000 K
+     Number of defect species:     2
+ 
+Defects found:
+Name  # charge states  # sites in unit cell
+Li_i                2                     1
+v_Li                2                     3
+ 
+Number of fixed concentration defect species:     0
+Number of fixed charged defect species:           1
+ 
+Frozen defects: (name)  (charge)   (concentration / cm^-3)
+                 dopant      2.0    0.5489469087376E+021
+ 
+Integration of DOS up to Fermi level:       0.000147
+Renormalised integrated DOS         :     544.000000
+ 
+Solution found!
+ 
+Condition (n + acceptors) - (p + donors):   0.9282420662743E+008  cm^-3
+ 
+Results:
+--------
+SC Fermi level :       3.2290417441878  (eV)
+ 
+Concentrations:
+n (electrons)  :  -0.9672322949203E+016  cm^-3
+p (holes)      :  -0.3964970248148E+013  cm^-3
+Li_i           :   0.1412573060672E+019  cm^-3
+v_Li           :   0.1099316059962E+022  cm^-3
+ 
+Breakdown of concentrations for each defect charge state:
+--------------------------------------------------------
+Li_i           :   Charge   Concentration(cm^-3) % total
+               :     0.0     0.2737867256333E+011    0.00
+               :     1.0     0.1412573033293E+019  100.00
+--------------------------------------------------------
+v_Li           :   Charge   Concentration(cm^-3) % total
+               :     0.0     0.1095743698396E+013    0.00
+               :    -1.0     0.1099316058867E+022  100.00
+ 
+Concentrations of new fixed charge defects:
+dopant         :   0.5489469087376E+021  cm^-3

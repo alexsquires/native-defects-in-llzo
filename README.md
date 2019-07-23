@@ -1,0 +1,31 @@
+#  Analysis for: [Native Defects and their Doping Response in the Lithium Solid Electrolyte Li<sub>7</sub> La<sub>3</sub>Zr<sub>2</sub>O<sub>12</sub>]()
+
+[Alexander G. Squires](https://orcid.org/0000-0001-6967-3690)  
+[David O. Scanlon](https://orcid.org/0000-0001-9174-8601)  
+[Benjamin J. Morgan.](http://orcid.org/0000-0002-3056-8233)
+
+This repository contains supporting code for the paper [Native Defects and their Doping Response in the Lithium Solid Electrolyte Li<sub>7</sub> La<sub>3</sub>Zr<sub>2</sub>O<sub>12</sub>]() [1].
+
+The repository contains:
+1. a [Jupyter notebook](sc_fermi_interface/defects_in_llzo.ipynb) containing the code used to generate Figures x,y,z in the manuscript.
+2. all the necessary calculation metadata needed to run the analysis
+
+## Note
+
+To run this analysis, you will need to compile your own version of the Fortran code: [sc-fermi](https://github.com/jbuckeridge/sc-fermi)
+
+
+## Dataset
+
+The dataset in full is available at:
+
+### BibTeX
+
+
+
+## Acknowledgements
+
+
+## References
+
+1. A. G. Squires, D. O. Scanlon, B. J. Morgan *Native Defects and their Doping Response in the Lithium Solid Electrolyte Li<sub>7</sub> La<sub>3</sub>Zr<sub>2</sub>O<sub>12</sub>*

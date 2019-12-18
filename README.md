@@ -16,7 +16,7 @@ To run the complete analysis, you will need a compiled version of the Fortran co
 
 ## Contents
 
-`metadata/`: This folder contains a series of .yaml files, containing data extracted from VASP calculations. The inputs and outputs for the source VASP calculations, along with instructions for extracting the relevant data and generating these files, are available at the [University of Bath Data Archive]().
+`data/`: This folder contains a series of .yaml files, containing data extracted from VASP calculations. The inputs and outputs for the source VASP calculations, along with instructions for extracting the relevant data and generating these files, are available at the [University of Bath Data Archive]().
 
 `analysis/`: This folder contains Jupyter notebooks that perform the analysis of the DFT data, using the input data in the `metadata` folder. These notebooks also generate relevant figures for publication.
 

@@ -7,7 +7,7 @@
 This repository contains supporting code for the paper [Native Defects and their Doping Response in the Lithium Solid Electrolyte Li<sub>7</sub>La<sub>3</sub>Zr<sub>2</sub>O<sub>12</sub>](https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.9b04319) [1].
 
 The repository contains:
-1. a [Jupyter notebook](sc_fermi_interface/defects_in_llzo.ipynb) containing code used to generate Figures 1,2,4,5,6 in the manuscript, and the accompnaying analysis.
+1. a [Jupyter notebook](https://github.com/alexsquires/native-defects-in-llzo/blob/master/analysis/defects_in_llzo.ipynb) containing code used to generate Figures 1,2,4,5,6 in the manuscript, and the accompnaying analysis.
 2. calculation metadata needed to run the analysis.
 
 ## Note
